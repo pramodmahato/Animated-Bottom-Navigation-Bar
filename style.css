@@ -1,0 +1,66 @@
+body{
+    padding:0;
+    margin:0;
+    transition: background-color 0.5s ease;
+    transform-origin: 20% 40%;
+}
+.bottom_nav{
+    background-color: slateblue;
+    bottom: 0;
+    padding-bottom: 0px !important;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 150px;
+    flex-direction: row-reverse;
+}
+.item{
+    width: 20%;
+    height: 100%;
+    padding: auto 0;
+    color:white;
+    font-size: 0em;
+    transform: skewX(-25deg);
+    transition: width 1s ease, font-size 0.3s;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+
+.item:hover{
+    width: 40%;
+    font-size: 2.5em;
+    
+}
+.content{
+    transform: skewX(25deg);
+}
+.material-icons {
+    padding: 37px 15px 10px 50px !important;
+    font-size: 70px !important;
+}
+.home{
+    background-color: slateblue;
+}
+.about{
+    background-color:tomato;
+}
+.projects{
+    background-color:yellowgreen;
+}
+.sessions{
+    background-color:slateblue;
+}
+.textDiv{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 48%;
+    font-size: 80px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    
+}
+#mainText{
+    text-shadow: slategrey 10px;
+}
